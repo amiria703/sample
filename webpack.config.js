@@ -52,7 +52,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       filename:"login.html",
-      template:"./pages/login.html"
+      template:"./src/pages/login.html"
     }),
     new HtmlWebpackPlugin({
       filename:"index.html",
